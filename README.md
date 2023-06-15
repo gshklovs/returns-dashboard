@@ -1,5 +1,5 @@
 # startupx
-ballin since i was a jit
+im no jit no more
 
 Login Page:
 
