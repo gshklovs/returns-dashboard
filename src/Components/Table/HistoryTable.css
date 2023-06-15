@@ -1,0 +1,8 @@
+.table-container {
+    border: solid 1px black;
+    border-radius: 10px;
+    max-width: 95%;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 5em;
+}

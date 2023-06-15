@@ -1,0 +1,43 @@
+
+.stack-element {
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    transition: .2s;
+    align-items: center;
+}
+
+.stack-element:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.avatar {
+    transition: .2s;
+}
+
+.stack-element:hover .row-last {
+    border : "5px";
+    box-shadow:  0 0 10px 5px white;
+}
+.stack-element:hover .avatar{
+    color: #ccc;
+}
+
+.typography-name {
+    width: 150px;
+    vertical-align: middle;
+}
+
+.element-order-id {
+    width: 90px;
+}
+
+.element-pickup-time {
+    width: 120px;
+}
+.button {
+    /* min-width: 10px !important;
+    width: 40px ;
+    height:  40px; */
+}

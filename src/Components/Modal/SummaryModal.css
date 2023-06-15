@@ -1,0 +1,66 @@
+.purchase-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 5px;
+  z-index: 10;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.modal-title {
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.modal-title-code-container {
+  color: white;
+  padding: 0.5em 1em;
+  margin-left: 1em;
+  margin: 0 1em;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
+
+status-tag {
+  margin-top: 5px;
+}
+
+.close-button {
+  float: right;
+}
+
+.price-typography {
+  margin: 0.5em 0em 1em 0em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.price-typography-title {
+  color: grey;
+  padding-right: .75rem;
+}
+
+.price-typography-value {
+  font-weight: bold;
+}
+
+.modal-subheader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+}

@@ -1,0 +1,32 @@
+.stack-index {
+    padding: 1em 1em 1em 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: rgb(169, 216, 237); */
+
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.index-typography-name {
+    width: 150px;
+}
+
+.index-order-id {
+    width: 90px;
+}
+.index-pickup-time {
+    width: 120px;
+}
+
+.arrow-icon {
+    display: flex;
+    width: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 40px;
+}

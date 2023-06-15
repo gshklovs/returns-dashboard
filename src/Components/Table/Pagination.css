@@ -1,0 +1,17 @@
+.displayed-rows {
+    width: 100px;
+}
+
+/* make all pagination children have padding */
+.pagination {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1em;
+    margin-top: .35em;
+}
+.pagination-select {
+    height: 2em;
+    margin: 0 1em;
+    overflow: hidden;
+}
