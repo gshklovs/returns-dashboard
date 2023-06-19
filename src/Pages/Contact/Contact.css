@@ -1,0 +1,19 @@
+.contact-background {
+  background-image: url("./ContactBackdrop.svg");
+  background-size: cover;
+}
+
+.contact-span {
+  text-align: center;
+  padding: 6em 12em;
+}
+
+.contact-form-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.contact-form-title {
+  padding: 0.5em;
+}
+

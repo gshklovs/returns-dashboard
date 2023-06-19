@@ -1,0 +1,9 @@
+.contact-graphic {
+    display: inline-block;
+    vertical-align: top;
+    padding: 1em;
+}
+
+.contact-graphic-image {
+    width: 400px;
+}

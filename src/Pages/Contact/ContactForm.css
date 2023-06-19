@@ -1,0 +1,25 @@
+.contact-form {
+    padding: 1em;
+    display: inline-block;
+    width: 30em;
+}
+.contact-form-text {
+    text-align: left;
+    padding-bottom: .5em;
+}
+.contact-form-element {
+    padding: 1em 0;
+}
+.contact-form-message {
+    padding: 1em 0;
+}
+.contact-form-button {
+    padding: 1em 0;
+}
+
+.contact-form-button-container {
+    padding-top: 1em;
+    margin: 0 5em;
+    display: flex;
+    /* need to change form control to space between */
+}

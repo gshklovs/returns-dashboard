@@ -1,0 +1,21 @@
+.contact-info-stack-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:  1em;
+}
+
+.contact-info-stack-item-left {
+  width: 30%;
+  padding-left: 1em;
+  text-align: left;
+  display: inline;
+}
+
+.contact-info-stack-item-right {
+  width: 70%;
+  text-align: left;
+  padding-left: 1em;
+  display: inline;
+}
