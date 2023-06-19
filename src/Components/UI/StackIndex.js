@@ -12,9 +12,9 @@ function StackIndex(props) {
       <Typography className="index-typography-name">Customer Name</Typography>
       <Typography className="index-order-id">Order ID</Typography>
       <Typography className="index-pickup-time">Pickup Time</Typography>
-      <Box className="arrow-icon">
+      <Box className="badge">
         {/* set the z index of the badge to be the same as its parent */}
-        <Badge badgeContent= "10" color="primary" 
+        <Badge badgeContent= {props.count} color="primary" 
         sx={{
           zIndex: 0,
         }}>

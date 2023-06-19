@@ -20,9 +20,10 @@
     width: 120px;
 }
 
-.arrow-icon {
+.badge {
     display: flex;
     width: 64px;
+    padding-right: 10px;
     justify-content: center;
     align-items: center;
 }

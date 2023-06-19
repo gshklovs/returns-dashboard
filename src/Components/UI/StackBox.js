@@ -42,74 +42,6 @@ function StackBox(props) {
   };
 
   // make me a list of 5 clothing items with quantities
-  let boxElements = [
-    {
-      name: "Joe Shulk",
-      orderCode: 1234,
-      price: 1,
-      pickupTime: "1:00 AM",
-      items: [
-        { name: "Red T- Shirt", size: "Small", quantity: 1 },
-        { name: "Brown Chino Pants", size: "29x30", quantity: 1 },
-        { name: "Adidas Shoes", size: "9.5", quantity: 1 },
-      ],
-    },
-    {
-      name: "Albert Karsinki",
-      orderCode: 24562,
-      price: 2456,
-      pickupTime: "2:00 PM",
-      items: [
-        { name: "Brown Chino Pants", size: "Small", quantity: 3 },
-        { name: "Brown Chino Pants", size: "Medium", quantity: 1 },
-        { name: "Adidas Shoes", quantity: 1 },
-      ],
-    },
-    {
-      name: "Corey Osiris",
-      orderCode: 3923,
-      price: 3923,
-      pickupTime: "2:00 PM",
-      items: [
-        { name: "Red T- Shirt", quantity: 1 },
-        { name: "Brown Chino Pants", quantity: 1 },
-        { name: "Adidas Shoes", quantity: 1 },
-      ],
-    },
-    {
-      name: "Srikar Vempaty",
-      orderCode: 4923,
-      price: 4923,
-      pickupTime: "8:00 PM",
-      items: [
-        { name: "Red T- Shirt", quantity: 1 },
-        { name: "Brown Chino Pants", quantity: 1 },
-        { name: "Adidas Shoes", quantity: 1 },
-      ],
-    },
-    {
-      name: "Rohan Virmani",
-      orderCode: 5234,
-      price: 5234,
-      pickupTime: "3:00 PM",
-      items: [
-        { name: "Red T- Shirt", quantity: 1 },
-        { name: "Brown Chino Pants", quantity: 1 },
-        { name: "Adidas Shoes", quantity: 1 },
-      ],
-    },
-    {
-      name: "Another person",
-      orderCode: 8234,
-      price: 8234,
-      pickupTime: "3:00 PM",
-      items: [
-        { name: "Red Jordan High's", quantity: 1 },
-        { name: "LuluLemon Shorts", quantity: 1 },
-        { name: "Green Polo Shirt", quantity: 1 },
-      ],
-    },
-  ];
 
   return (
     <Box
@@ -121,7 +53,7 @@ function StackBox(props) {
         overflow: "hidden",
       }}
     >
-      <StackIndex></StackIndex>
+      <StackIndex count={props.transactions.length}></StackIndex>
       <Box
         sx={{
           display: "flex",
@@ -131,7 +63,7 @@ function StackBox(props) {
         }}
       >
         <Box className="stack-box" sx={{ flex: 2 }}>
-          {boxElements.map((boxElement) => {
+          {props.transactions.map((boxElement) => {
             return (
               <StackElement
                 {...boxElement}
