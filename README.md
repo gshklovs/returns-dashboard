@@ -1,14 +1,6 @@
-# startupx
-im no jit no more
+# dashboard
 
 Login Page:
-
--V1
-
-![login-page](./READMEAssets/OasisLogin.png)
-
--V2
-
 ![login-page](./READMEAssets/OasisLoginV2.png)
 
 Dashboard Page:
